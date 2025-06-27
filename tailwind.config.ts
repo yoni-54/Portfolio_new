@@ -27,6 +27,16 @@ const config = {
     },
     extend: {
       colors: {
+        metallic: {
+          light: '#d7d7d7',
+          DEFAULT: '#a9a9a9',
+          dark: '#333333',
+        },
+        lightblue: {
+          DEFAULT: '#dbeafe',
+          darker: '#60a5fa',
+          text: "#1e3a8a",
+        },
         black: {
           DEFAULT: "#000",
           100: "#000319",
@@ -41,6 +51,10 @@ const config = {
         blue: {
           "100": "#E4ECFF",
         },
+        gold: '#d4af37',
+        rosegold: '#b76e79',
+        steel: '#7f8c8d',
+        charcoal: '#1a1a1a',
         purple: "#CBACF9",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
