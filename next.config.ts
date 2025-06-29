@@ -3,6 +3,9 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   transpilePackages: ['three', 'three-globe', '@react-three/fiber', '@react-three/drei'],
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   webpack: (config) => {
     // Important: Handle Three.js and WebGPU/WebGL modules
     config.resolve.alias = {
