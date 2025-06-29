@@ -59,7 +59,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Do you want to contact me?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -88,19 +88,19 @@ export const navItems = [
     },
     {
       id: 3,
+      title: "MERN Chat App",
+      des: "A real-time messaging application, it allows users to sign up, log in, and chat instantly with others",
+      img: "/p4.png",
+      iconLists: ["/mongodb.svg", "/express-js.svg", "/react.svg", "/nodejs.svg", "/socket-io.svg"],
+      link: "https://github.com/yoni-54/mern-chat-app",
+    },
+    {
+      id: 4,
       title: "Vehicle Management System",
       des: "A simple C# application that allows users to Create, Read, Update, and Delete vehicles in a fleet.",
       img: "vms.png",
       iconLists: ["/c-sharp.svg"],
       link: "https://github.com/yoni-54/vehicle-managment-system",
-    },
-    {
-      id: 4,
-      title: "MERN Chat App",
-      des: "A real-time messaging application, it allows users to sign up, log in, and chat instantly with others",
-      img: "/p4.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/yoni-54/mern-chat-app",
     },
   ];
   
